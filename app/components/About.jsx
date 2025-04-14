@@ -16,7 +16,7 @@ const About = () => {
             </div>
 
             <div className='flex-1'>
-                <p className='mb-10 max-w-8xl font-Ovo'>
+                <p className='mb-10 max-w-6xl font-Ovo'>
                 I'm Aditya Goyal, a Computer Science undergraduate at Lovely Professional University with a CGPA of 9.01. I'm passionate 
                 about building efficient, scalable, and user-centric software solutions. My experience spans full-stack web development with 
                 the MERN stack, backend systems using Go and FastAPI, and data analytics with Python libraries like Pandas, NumPy, and Folium. 
@@ -24,7 +24,7 @@ const About = () => {
                 domains. I'm also actively exploring DevOps practices and honing my problem-solving skills through competitive programming.
                 </p>
 
-                <ul className='grid grid-cols-1 sm:grid-cols-4 gap-6 max-w-8xl'>
+                <ul className='grid grid-cols-1 sm:grid-cols-4 gap-6 max-w-6xl'>
                     {infoList.map(({icon, iconDark, title, description}, index)=>(
                         <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer 
                         hover:bg-lightHover hover:-translate-y-1 hover:shadow-black duration-500' 
@@ -40,7 +40,7 @@ const About = () => {
 
                 <ul className='flex items-center gap-3 sm:gap-5'>
                     {toolsData.map((tool, index)=>(
-                        <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400
+                        <li className='flex items-center justify-center w-10 sm:w-14 aspect-square border border-gray-400
                         rounded-lg cursor-pointer hover:-translate-y-1 duration:500'
                         key={index}>
                             <Image src={tool} alt='Tool' className='w-5 sm:w-8' />
