@@ -71,7 +71,6 @@ const Navbar = () => {
                 <li><a className='font-Ovo' onClick={closeMenu} href = "#coding">Coding Profile</a></li>
                 <li><a className='font-Ovo' onClick={closeMenu} href = "#contact">Contact me</a></li>
             </ul>
-
         </nav>
     </>
   )
