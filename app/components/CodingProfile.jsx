@@ -23,13 +23,13 @@ const CodingProfile = () => {
   ];
 
   const badges = [
-    { name: 'Contest Contender', platform: 'LeetCode', image: assets.codechef_bronze },
+    { name: 'Contest Contender', platform: 'Codechef', image: assets.codechef_bronze },
     { name: '50 Days 2025', platform: 'LeetCode', image: assets.fifty_days_2025 },
-    { name: '200 Days 2024', platform: 'CodeChef', image: assets.two_hundred_days_2024 },
-    { name: '100 Days 2024', platform: 'GeeksForGeeks', image: assets.hundred_days_2024 },
-    { name: '50 Days 2024', platform: 'CodeForces', image: assets.fifty_days_2024 },
-    { name: 'Cpp Silver Level', platform: 'CodeChef', image: assets.hackerrank_cpp },
-    { name: 'Python Bronze Level', platform: 'GeeksForGeeks', image: assets.hackerrank_python },
+    { name: '200 Days 2024', platform: 'LeetCode', image: assets.two_hundred_days_2024 },
+    { name: '100 Days 2024', platform: 'LeetCode', image: assets.hundred_days_2024 },
+    { name: '50 Days 2024', platform: 'LeetCode', image: assets.fifty_days_2024 },
+    { name: 'Cpp Silver Level', platform: 'Hackerrank', image: assets.hackerrank_cpp },
+    { name: 'Python Bronze Level', platform: 'Hackerrank', image: assets.hackerrank_python },
   ];
 
   return (

@@ -112,7 +112,7 @@ export const workData = [
         url: 'https://github.com/aditya-goyal1694/Foodie-Fiesta'
     },
     {
-        title: 'Books Management API',
+        title: 'Bookstore Management API',
         description: 'REST API in Golang',
         bgImage: '/bookstore-management.jpg',
         url: 'https://github.com/aditya-goyal1694/book-Store-Management-API'
