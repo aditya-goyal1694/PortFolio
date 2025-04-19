@@ -18,7 +18,7 @@ const CodingProfile = () => {
 
   const contestStats = [
     { platform: 'LeetCode', contests: 16, rating: 1512 },
-    { platform: 'CodeChef', contests: 5, rating: 1397 },
+    { platform: 'CodeChef', contests: 5, rating: 1441 },
     { platform: 'CodeForces', contests: 2, rating: 715 },
   ];
 

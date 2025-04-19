@@ -109,7 +109,7 @@ export const workData = [
         title: 'Foodie Fiesta',
         description: 'Dockerised Web App',
         bgImage: '/foodie-fiesta.png',
-        url: 'https://github.com/aditya-goyal1694/Foodie-Fiesta'
+        url: 'https://github.com/aditya-goyal1694/FoodieFiesta'
     },
     {
         title: 'Bookstore Management API',
