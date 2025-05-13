@@ -5,7 +5,7 @@ import Image from 'next/image'
 const CodingProfile = () => {
 
   const totalStats = {
-    questions: '650+',
+    questions: '700+',
     contests: '20+',
   };
 
