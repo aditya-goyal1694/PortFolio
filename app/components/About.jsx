@@ -21,16 +21,11 @@ const About = () => {
 
         <div className="flex-1">
           <p className="mb-6 md:mb-10 max-w-4xl font-Ovo text-sm md:text-base">
-            I'm Aditya Goyal, a Computer Science undergraduate at Lovely
-            Professional University with a CGPA of 9.01. I'm passionate about
-            building efficient, scalable, and user-centric software solutions. My
-            experience spans full-stack web development with the MERN stack,
-            backend systems using Go and FastAPI, and data analytics with Python
-            libraries like Pandas, NumPy, and Folium. Projects like Foodie-Fiesta,
-            US-Accidents-EDA, and custom STL implementations in C++ highlight my
-            ability to work across diverse domains. I'm also actively exploring
-            DevOps practices and honing my problem-solving skills through
-            competitive programming.
+            I'm Aditya Goyal, a Software Developer with a strong focus on backend engineering and system optimization. 
+            During my tenure as an SDE Intern at Omniful Tech, I specialized in building high-performance APIs and 
+            scalable microservices using Go, Kafka, and AWS. My core technical expertise lies in Go, C++, and Python.
+            which I use to build efficient, production-grade software and solve complex architectural challenges. 
+            I have a proven track record of reducing API latency and optimizing system performance at scale.
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-6xl">

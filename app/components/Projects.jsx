@@ -14,59 +14,58 @@ const Projects = () => {
       </h2>
 
       <p className='text-center mx-auto mt-5 text-left font-Ovo'>
-      I have developed a wide array of projects spanning multiple domains and technologies, reflecting my passion for building 
-      impactful solutions and my adaptability across stacks. My experience includes full-stack web development using the MERN stack 
-      and TypeScript, showcased in projects like Foodie-Fiesta, a dynamic food-ordering platform integrated with an AI-powered chatbot 
-      built using Dialogflow. On the backend, I've worked extensively with Go, creating high-performance systems such as a concurrent 
-      Ticket Booking System and a Bookstore Management API powered by Gorilla Mux and MySQL, with full support for CRUD operations and 
-      asynchronous processing via Goroutines.
+        I have developed a wide array of projects spanning multiple domains, reflecting my passion for building
+        impactful solutions and my technical depth. On the backend, I've worked extensively with Go, creating
+        high-performance systems such as a concurrent Ticket Booking System and a Bookstore Management API,
+        leveraging Kafka for messaging and efficient database interactions.
       </p>
       <p className='text-center mx-auto mt-5 text-left font-Ovo'>
-      In the realm of data analytics, I explored large datasets using Python, employing tools like Pandas, NumPy, Matplotlib, Seaborn, and 
-      Folium. One such project, US-Accidents-EDA, dives deep into traffic accident patterns across the United States, delivering insights 
-      through visual and geographic analysis. I also have a solid background in system-level programming using C and C++, where I've implemented 
-      core computer science concepts — such as a custom Standard Template Library(STL) and a simulation of the Aging Algorithm to address 
-      starvation in process scheduling.
+        In the realm of data analytics, I explore large datasets using Python to deliver insights through visual
+        and geographic analysis. One such project, US-Accidents-EDA, dives deep into traffic accident patterns,
+        showcasing my ability to process and visualize complex information. I also have a solid background in
+        system-level programming using C++, where I've implemented core computer science concepts — such as a
+        custom Standard Template Library (STL) and process scheduling simulations.
       </p>
       <p className='text-center mx-auto mt-5 mb-12 text-left font-Ovo'>
-      Together, these projects highlight my ability to build scalable systems, craft intuitive user experiences, and extract meaningful insights 
-      from data — all while working across modern development ecosystems.
+        Together, these projects highlight my ability to build scalable systems, craft intuitive solutions,
+        and extract meaningful insights from data — all while focusing on high-performance development in
+        Go, C++, and Python.
       </p>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-5 max-w-[1600px] mx-auto'>
         {workData.map((project, index) => (
-          <a 
-          key={index}
-          href={project.url} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className='relative aspect-square cursor-pointer group overflow-hidden rounded-lg max-w-[400px] w-full mx-auto'
-        >
-          <Image 
-            src={project.bgImage}
-            alt={project.title}
-            fill
-            className='object-cover'
-            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, (max-width: 1280px) 30vw, 23vw"
-          />
+          <a
+            key={index}
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className='relative aspect-square cursor-pointer group overflow-hidden rounded-lg max-w-[400px] w-full mx-auto'
+          >
+            <Image
+              src={project.bgImage}
+              alt={project.title}
+              fill
+              className='object-cover'
+              sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, (max-width: 1280px) 30vw, 23vw"
+            />
 
-          <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex 
+            <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex 
             items-center justify-between duration-500 group-hover:bottom-7'>
-            <div>
-              <h2 className='font-semibold'>{project.title}</h2>
-              <p className='text-sm text-gray-700'>{project.description}</p>
-            </div>
+              <div>
+                <h2 className='font-semibold'>{project.title}</h2>
+                <p className='text-sm text-gray-700'>{project.description}</p>
+              </div>
 
-            <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center 
+              <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center 
               shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition-colors'>
-              <Image 
-                src={assets.send_icon} 
-                alt='send icon' 
-                className='w-5 h-5'
-              />
+                <Image
+                  src={assets.send_icon}
+                  alt='send icon'
+                  className='w-5 h-5'
+                />
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
         ))}
       </div>
 
